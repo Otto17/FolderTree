@@ -170,7 +170,7 @@ func renderUnicodeChildren(sb *strings.Builder, node *Node, prefix string) {
 // renderMarkdown генерирует строковое представление дерева в формате Markdown
 func renderMarkdown(root *Node) string {
 	var sb strings.Builder
-	sb.WriteString("# Дерево: " + root.Name + "\n\n")
+	//sb.WriteString("# Дерево: " + root.Name + "\n\n")
 	renderMDNode(&sb, root, 0)
 	return sb.String()
 }

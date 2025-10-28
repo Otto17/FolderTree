@@ -10,10 +10,6 @@ _\_Проект полностью открытый и бесплатный, р�
 
 Ссылки на [GitFlic](https://gitflic.ru/project/otto/foldertree) и [GitHub](https://github.com/Otto17/FolderTree).
 
-![Скриншот](image1.png)
-![Скриншот](image2.png)
-![Скриншот](image3.png)
-
 ---
 
 **Использование:**
@@ -29,6 +25,63 @@ _\_Проект полностью открытый и бесплатный, р�
  
 
 `P.S. В Linux нужно сделать первым делом файл исполняемым "chmod +x FolderTree".`
+
+---
+
+**Пример Markdown:**
+
+📁 **Тестовая папка**
+
+* 📄 LICENSE
+
+* 📄 README.md
+
+* 📁 **test1**
+
+  * 📄 go.mod
+
+  * 📁 **test2**
+
+    * 📁 **Tss**
+
+      * 📄 file.ffs\_gui
+      * 📄 NONE.txt
+      * 📄 NONE2.txt
+
+    * 📄 Архив17.7z
+
+    * 📄 Сброс.txt
+
+  * 📄 Файл 1.exe
+
+* 📁 **пустая папка1**
+
+* 📁 **Файлики**
+
+  * 📄 FolderTree
+  * 📄 icon.ico
+  * 📄 rsrc\_windows\_amd64.syso
+  * 📁 **Пустая папка**
+
+---
+
+**Пример TXT:**
+
+**Тестовая папка**
+**├── LICENSE**
+**├── README.md**
+**├── test1/**
+**│   ├── go.mod**
+**│   ├── test2/**
+**│   │   ├── Tss/**
+**│   │   │   ├── file.ffs\_gui**
+**│   │   │   ├── NONE.txt**
+**│   │   │   └── NONE2.txt**
+**│   │   ├── Архив17.7z**
+**│   │   └── Сброс.txt**
+**│   └── Файл 1.exe**
+**├── пустая папка1/**
+**└── Файлики/**&#xA;**&#xA0;  ├── FolderTree**&#xA;**&#xA0;  ├── icon.ico**&#xA;**&#xA0;  ├── rsrc\_windows\_amd64.syso**&#xA;**&#xA0;  └── Пустая папка/**
 
 ---
 
